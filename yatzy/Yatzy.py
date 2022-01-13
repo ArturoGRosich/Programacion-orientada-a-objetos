@@ -1,5 +1,4 @@
- 
-class Yatzy:
+ class Yatzy:
 
     global ONE, TWO, THREE, FOUR, FIVE, SIX, PAIR
     ONE, TWO, THREE, FOUR, FIVE, SIX = 1, 2, 3, 4, 5, 6

@@ -1,0 +1,6 @@
+    def four_of_a_kind(diceList):
+        for dice in diceList:
+            if diceList.count(diceList[0]) < Yatzy.FOUR and diceList.count(diceList[1]) < Yatzy.FOUR:
+                return 0
+            else:
+                return(dice * Yatzy.FOUR)

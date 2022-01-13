@@ -105,14 +105,3 @@ class Bowling:
             self.frames_left -= 0.5
 
 
-assert Bowling("X9-9-9-9-9-9-9-9-9-").calculate_score(), 100
-assert Bowling("9-9-9-9-9-9-9-9-9-X9-").calculate_score(), 100
-assert Bowling("X9-X9-9-9-9-9-9-9-").calculate_score(), 110
-assert Bowling("XX9-9-9-9-9-9-9-9-").calculate_score(), 120
-assert Bowling("9-9-9-9-9-9-9-9-9-XXX").calculate_score(), 111
-assert Bowling("XXX9-9-9-9-9-9-9-").calculate_score(), 141
-assert Bowling("XXXXXXXXXXXX").calculate_score(), 300
-assert Bowling("8/549-XX5/53639/9/X").calculate_score(), 149
-assert Bowling("X5/X5/XX5/--5/X5/").calculate_score(), 175
-
-(1 > 2)? return True : return False
